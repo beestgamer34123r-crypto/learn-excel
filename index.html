@@ -279,36 +279,36 @@
       </header>
 
       <!-- Mobile Horizontal Taskbar (Never crushed, comfortable touch targets, smooth swipe) -->
-      <nav id="mobile-nav-taskbar" class="bg-[#141312] border-t border-[#282622] px-3 py-2 flex items-center gap-2 overflow-x-auto no-scrollbar text-xs font-semibold">
-        <button data-tab-target="learn" class="px-3.5 py-1.5 rounded-lg text-white bg-sage-600 border border-sage-500/40 shrink-0 flex items-center gap-1.5 shadow-2xs cursor-pointer active:scale-95 transition-all">
+      <nav id="mobile-nav-taskbar" class="bg-[#141312] border-t border-[#282622] px-3 py-2 min-h-[50px] flex items-center gap-2 overflow-x-auto no-scrollbar text-xs font-semibold">
+        <button data-tab-target="learn" class="h-9 px-3.5 rounded-lg text-white bg-sage-600 border border-sage-500/40 shrink-0 flex items-center gap-1.5 shadow-2xs cursor-pointer active:scale-95 transition-all text-xs font-bold">
           <span>📖</span><span>0 to Master</span>
         </button>
-        <button data-tab-target="career" class="px-3.5 py-1.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all">
+        <button data-tab-target="career" class="h-9 px-3.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all text-xs font-bold">
           <span>💼</span><span>Career</span>
         </button>
-        <button data-tab-target="solver" class="px-3.5 py-1.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all">
+        <button data-tab-target="solver" class="h-9 px-3.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all text-xs font-bold">
           <span>🔍</span><span>AI Doctor</span>
         </button>
-        <button data-tab-target="shortcuts" class="px-3.5 py-1.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all">
+        <button data-tab-target="shortcuts" class="h-9 px-3.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all text-xs font-bold">
           <span>⌨️</span><span>Keys</span>
         </button>
-        <button data-tab-target="formulas" class="px-3.5 py-1.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all">
+        <button data-tab-target="formulas" class="h-9 px-3.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all text-xs font-bold">
           <span>📐</span><span>Formulas</span>
         </button>
-        <button data-tab-target="videos" class="px-3.5 py-1.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all">
+        <button data-tab-target="videos" class="h-9 px-3.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all text-xs font-bold">
           <span>🎬</span><span>Videos</span>
         </button>
-        <button data-tab-target="practice" class="px-3.5 py-1.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all">
+        <button data-tab-target="practice" class="h-9 px-3.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all text-xs font-bold">
           <span>⚡</span><span>Grid</span>
         </button>
-        <button data-tab-target="dashboard" class="px-3.5 py-1.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all">
+        <button data-tab-target="dashboard" class="h-9 px-3.5 rounded-lg text-warmgray-300 bg-[#201E1B] border border-[#33302B] hover:text-white shrink-0 flex items-center gap-1.5 cursor-pointer active:scale-95 transition-all text-xs font-bold">
           <span>📊</span><span>Progress</span>
         </button>
       </nav>
     </div>
 
     <!-- Main Dynamic Content Area (Full Laptop Screen Width, no right-side gap, strict 3px bottom padding) -->
-    <main id="main-content-area" class="flex-1 w-full px-4 sm:px-8 lg:px-12 py-4 pb-[3px] page-fade-in"></main>
+    <main id="main-content-area" class="flex-1 w-full px-3.5 sm:px-8 lg:px-12 pt-4 pb-[3px] page-fade-in"></main>
 
     <!-- Video Player Modal Container with Reverse / Back Buttons -->
     <div id="video-modal-container" class="hidden fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 video-modal-backdrop" onclick="window.appHandleVideoModalBackdropClick(event)">

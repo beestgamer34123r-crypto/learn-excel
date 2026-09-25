@@ -768,10 +768,20 @@ body.dark-theme #video-modal-reverse-btn:hover {
 
 /* Mobile Top Header & Navigation Taskbar */
 #mobile-top-bar-container {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 40 !important;
+  width: 100% !important;
+  flex-shrink: 0 !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22) !important;
 }
 
 #mobile-nav-taskbar {
+  min-height: 52px !important;
+  height: 52px !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -779,6 +789,16 @@ body.dark-theme #video-modal-reverse-btn:hover {
 
 #mobile-nav-taskbar::-webkit-scrollbar {
   display: none;
+}
+
+#mobile-nav-taskbar button {
+  height: 36px !important;
+  min-height: 36px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  white-space: nowrap !important;
 }
 
 body.dark-theme #mobile-top-bar-container {
@@ -790,6 +810,7 @@ body.dark-theme #mobile-nav-taskbar {
   background-color: #1a1917 !important;
   border-color: #282622 !important;
 }
+
 
 
 
